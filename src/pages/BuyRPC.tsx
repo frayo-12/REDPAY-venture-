@@ -33,7 +33,7 @@ const BuyRPC = () => {
         <div className="mb-4 rounded-[10px] border border-primary/20 bg-[#1a0000] p-5">
           <div className="mb-1.5 text-sm text-muted-foreground">Amount to Pay</div>
           <div className="flex items-center justify-between rounded-lg bg-[#250000] p-4 text-lg font-bold">
-            ₦8,500
+            ₦7,500
             <button
               onClick={() => copyText("8500")}
               className="rounded-md border border-primary bg-[#400000] px-3 py-2 text-sm transition-colors hover:bg-[#5a0000]"
@@ -59,11 +59,11 @@ const BuyRPC = () => {
 
         {/* Account Number */}
         <div className="mb-4 rounded-[10px] border border-primary/20 bg-[#1a0000] p-5">
-          <div className="mb-1.5 text-sm text-muted-foreground">Account Number</div>
+          <div className="mb-1.5 text-sm text-muted-foreground">ACCOUNT NUMBER</div>
           <div className="flex items-center justify-between rounded-lg bg-[#250000] p-4 text-lg font-bold">
-            6681377692
+            6808072501
             <button
-              onClick={() => copyText("6681377692")}
+              onClick={() => copyText("6808072501")}
               className="rounded-md border border-primary bg-[#400000] px-3 py-2 text-sm transition-colors hover:bg-[#5a0000]"
             >
               Copy
@@ -75,9 +75,9 @@ const BuyRPC = () => {
         <div className="mb-4 rounded-[10px] border border-primary/20 bg-[#1a0000] p-5">
           <div className="mb-1.5 text-sm text-muted-foreground">Account Name</div>
           <div className="flex items-center justify-between rounded-lg bg-[#250000] p-4 text-lg font-bold">
-           ABRAHAM-OJONIY
+           Friday Gabriel
             <button
-              onClick={() => copyText("ABRAHAM-OJONIY")}
+              onClick={() => copyText("Friday Gabriel")}
               className="rounded-md border border-primary bg-[#400000] px-3 py-2 text-sm transition-colors hover:bg-[#5a0000]"
             >
               Copy
