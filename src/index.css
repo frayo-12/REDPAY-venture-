@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 @layer base {
   :root {
@@ -36,7 +36,6 @@
 
     --radius: 1.125rem;
 
-    /* Custom REDPAY tokens */
     --gradient-bg: radial-gradient(circle at top, hsl(0 100% 8%), hsl(0 0% 0%));
     --glass-bg: hsla(0, 0%, 0%, 0.45);
     --glass-blur: 14px;
